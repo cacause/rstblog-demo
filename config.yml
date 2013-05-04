@@ -1,0 +1,10 @@
+active_modules: [blog, tags, cacause]
+author: CaCause Team
+canonical_url: http://localhost/
+feed:
+  name: sample
+modules:
+  pygments:
+    style: tango
+ignore_files: [comments, .git, .gitignore]
+cacause_dir: comments

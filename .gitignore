@@ -1,0 +1,3 @@
+# ignore whole _build directory
+_build/**/*
+_build
