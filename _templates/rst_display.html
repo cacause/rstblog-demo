@@ -22,9 +22,20 @@
   {% if 'disqus' in config.active_modules %}
     {{ get_disqus() }}
   {% endif %}
-  
+
   {% if 'cacause' in config.active_modules %}
-    {{ get_cacause() }}
+    <!-- insert existing comments -->
+    {% for comment in ctx.comments %}
+        <hr/>
+        <div class="comment">
+            <p> From <b>{{ comment.author }}</b>. {{ comment.date }}<p>
+            {{ comment.body }}
+        </div>
+    {%- endfor %}
+
+    <!-- insert comment creation form here -->
+    <!-- TODO -->
+
   {% endif %}
-  
+
 {% endblock %}

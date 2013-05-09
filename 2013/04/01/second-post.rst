@@ -1,19 +1,25 @@
 public: yes
-tags: [testing]
+tags: [learning]
 summary: |
-  Second post
+  reStructuredText - part II
 
-Second post
-===========
+reStructuredText - Part II
+==========================
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-sanctus est Lorem ipsum dolor sit amet.
+Show me some formatting examples
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Feel free to comment.
+You can highlight text in *italics* or, to provide even more emphasis
+in **bold**. Often, when describing computer code, we like to use a
+``fixed space font`` to quote code snippets.
+
+We could include source code files
+(by specifying their name) which is useful when documenting code. We
+can also copy source code verbatim (i.e. include it in the rst
+document) like this::
+
+  int main ( int argc, char *argv[] ) {
+      printf("Hello World\n");
+      return 0;
+  }
 

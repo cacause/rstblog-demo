@@ -1,16 +1,33 @@
 public: yes
-tags: [offtopic]
+tags: [learning]
 summary: |
-  1st post
+  reStructuredText - part I
 
-First post
-==========
+reStructuredText - Part I
+=========================
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-sanctus est Lorem ipsum dolor sit amet.
+What is reStructuredText?
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+An easy-to-read, what-you-see-is-what-you-get plaintext markup syntax
+and parser system, abbreviated *rst*. In other words, using a simple
+text editor, documents can be created which
+
+- are easy to read in text editor and
+- can be *automatically* converted to
+ 
+  - html and 
+  - latex (and therefore pdf)
+
+What is it good for?
+~~~~~~~~~~~~~~~~~~~~
+
+reStructuredText can be used, for example, to
+
+- write technical documentation (so that it can easily be offered as a
+  pdf file or a web page)
+
+- create html webpages without knowing html 
+
+- to document source code
+
