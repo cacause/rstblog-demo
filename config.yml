@@ -8,3 +8,4 @@ modules:
     style: tango
 ignore_files: [comments, .git, .gitignore]
 cacause_dir: comments
+cacause_gravatar: True
